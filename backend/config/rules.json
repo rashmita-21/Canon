@@ -1,0 +1,62 @@
+[
+  {
+    "id": "Term-1.1",
+    "name": "Banned Superlatives & Guarantees",
+    "category": "Terminology",
+    "version": "4.2.1",
+    "summary": "Never use guaranteed returns, guaranteed, risk-free, or free money in financial marketing.",
+    "description": "Regulatory guidelines prohibit absolute guarantees on variable-yield financial products or misleading depositors about risk.",
+    "passExample": "Competitive rates designed for your financial growth.",
+    "failExample": "Lumen Saver: guaranteed 8% returns, risk-free and free money!",
+    "owner": "Legal & Compliance",
+    "requiresAuthorizedReviewer": true
+  },
+  {
+    "id": "Term-1.2",
+    "name": "Preferred Terminology: Savings Accounts",
+    "category": "Terminology",
+    "version": "4.2.1",
+    "summary": "Use 'Lumen Savings' instead of legacy terms like 'Lumen Saver'.",
+    "description": "Brand nomenclature update per Q1 2026 rebrand guidelines.",
+    "passExample": "Open your Lumen Savings account today.",
+    "failExample": "Check out Lumen Saver accounts.",
+    "owner": "Brand Marketing",
+    "requiresAuthorizedReviewer": false
+  },
+  {
+    "id": "Term-1.3",
+    "name": "Customer vs Account Holder",
+    "category": "Terminology",
+    "version": "4.2.1",
+    "summary": "Use 'account holder(s)' instead of 'customer(s)'.",
+    "description": "Lumen Bank institutional voice guidelines specify 'account holder' to reflect relationship depth.",
+    "passExample": "Every account holder receives priority support.",
+    "failExample": "Every customer receives priority support.",
+    "owner": "Brand Voice Council",
+    "requiresAuthorizedReviewer": false
+  },
+  {
+    "id": "Term-1.4",
+    "name": "Rewards vs Cashback",
+    "category": "Terminology",
+    "version": "4.2.1",
+    "summary": "Use 'rewards' instead of 'cashback'.",
+    "description": "Regulatory term for credit/debit card reward points program.",
+    "passExample": "Earn 5% festive rewards on debit card spends.",
+    "failExample": "Get instant cashback on your purchases.",
+    "owner": "Products Team",
+    "requiresAuthorizedReviewer": false
+  },
+  {
+    "id": "Claim-2.1",
+    "name": "Savings Interest Rate Accuracy",
+    "category": "Claim",
+    "version": "4.2.1",
+    "summary": "Savings rate must match active Claim Ledger entry F1 (6.5% p.a.).",
+    "description": "All published interest rates must reference current ALCO approved schedules.",
+    "passExample": "Earn up to 6.5% p.a. on your savings balance.",
+    "failExample": "Earn 8% p.a. on your savings balance.",
+    "owner": "Retail Treasury",
+    "requiresAuthorizedReviewer": true
+  }
+]

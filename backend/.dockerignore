@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+legacy/
+tests/
+data/claimbuster/
+models/cache/

@@ -1,0 +1,113 @@
+{
+  "data_sources": {
+    "claim": "ClaimBuster (Zenodo 10.5281/zenodo.3609356): check-worthy factual = positive",
+    "tone": "Stanford Politeness Corpus via convokit (CC BY 4.0): impolite = positive; neutral dropped"
+  },
+  "limits": "Domain shift: ClaimBuster is political debate; Politeness is Wikipedia/StackExchange requests, not marketing copy.",
+  "claim": {
+    "rows": 20000,
+    "train": 16000,
+    "test": 4000,
+    "model_a": {
+      "precision": 0.7636849132176236,
+      "recall": 0.5983263598326359,
+      "f1": 0.6709677419354839,
+      "confusion_matrix": [
+        [
+          2867,
+          177
+        ],
+        [
+          384,
+          572
+        ]
+      ],
+      "brier": 0.09989149076494278
+    },
+    "model_b": {
+      "precision": 0.7299077733860343,
+      "recall": 0.5794979079497908,
+      "f1": 0.646064139941691,
+      "confusion_matrix": [
+        [
+          2839,
+          205
+        ],
+        [
+          402,
+          554
+        ]
+      ],
+      "brier": 0.10797276694639811
+    },
+    "combined": {
+      "coverage": 0.90325,
+      "precision": 0.8477366255144033,
+      "recall": 0.5500667556742324,
+      "f1": 0.6672064777327935,
+      "confusion_matrix": [
+        [
+          2790,
+          74
+        ],
+        [
+          337,
+          412
+        ]
+      ]
+    }
+  },
+  "tone": {
+    "rows": 8195,
+    "train": 6556,
+    "test": 1639,
+    "model_a": {
+      "precision": 0.7198033707865169,
+      "recall": 0.9377859103385179,
+      "f1": 0.8144616607071911,
+      "confusion_matrix": [
+        [
+          147,
+          399
+        ],
+        [
+          68,
+          1025
+        ]
+      ],
+      "brier": 0.19529570474899158
+    },
+    "model_b": {
+      "precision": 0.6960849369608494,
+      "recall": 0.959743824336688,
+      "f1": 0.806923076923077,
+      "confusion_matrix": [
+        [
+          88,
+          458
+        ],
+        [
+          44,
+          1049
+        ]
+      ],
+      "brier": 0.20500850042092042
+    },
+    "combined": {
+      "coverage": 0.6967663209273948,
+      "precision": 0.7652173913043478,
+      "recall": 0.9765721331689272,
+      "f1": 0.8580715059588299,
+      "confusion_matrix": [
+        [
+          88,
+          243
+        ],
+        [
+          19,
+          792
+        ]
+      ]
+    }
+  }
+}
